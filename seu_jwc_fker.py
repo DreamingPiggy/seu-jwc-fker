@@ -71,7 +71,7 @@ def selectSemester(semesterNum):
     print "切换学期菜单中......"
     time.sleep(5)
     #构造选择学期的包
-    geturl ='http://xk.urp.seu.edu.cn/jw_css/xk/runXnXqmainSelectClassAction.action?Wv3opdZQ89ghgdSSg9FsgG49koguSd2fRVsfweSUj=Q89ghgdSSg9FsgG49koguSd2fRVs&selectXn=2014&selectXq='+str(semesterNum)+'&selectTime=2014-05-30%2013:30~2014-06-07%2023:59'
+    geturl ='http://xk.urp.seu.edu.cn/jw_css/xk/runXnXqmainSelectClassAction.action?Wv3opdZQ89ghgdSSg9FsgG49koguSd2fRVsfweSUj=Q89ghgdSSg9FsgG49koguSd2fRVs&selectXn=2015&selectXq='+str(semesterNum)+'&selectTime=2015-06-05%2012:50~2015-06-11%2000:00'
     header = {  'Host' : 'xk.urp.seu.edu.cn',
                 'Proxy-Connection' : 'keep-alive',
                 'Accept' : 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
